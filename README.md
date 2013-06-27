@@ -13,7 +13,7 @@ library('Rtreasury.io')
 ## Example
 ```
 # Operating cash balances for May 22, 2013
-sql <- "SELECT * FROM "t1" WHERE "date" = \'2013-05-22\';"
+sql <- 'SELECT * FROM "t1" WHERE "date" = \'2013-05-22\';'
 treasury.io(sql)
 ```
 
