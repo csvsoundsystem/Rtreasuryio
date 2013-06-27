@@ -1,0 +1,15 @@
+Package: treasureR
+Maintainer: csvsoundsystem <csvsoundsystem@gmail.com>
+Author: csvsoundsystem <csvsoundsystem@gmail.com>
+Version: 1.0
+License: MIT
+Title:
+Description: A R function for querying treasury.io
+Depends:
+    R (>= 2.15.1),
+    plyr,
+    RCurl,
+    RJSONIO,
+    utils
+Collate:
+    'treasury.io.R'
