@@ -1,7 +1,7 @@
 # Rtreasury.io
 _Access [treasury.io](http://treasury.io) from `R`_
 
-This is a package consisting of a single, simple function for submitting `SQL` queries to [treasury.io](http://treasury.io) from `R`. While you could simply copy-and-paste the function from package-to-package, this makes it easier and quicker to get up and running!
+This is a package consisting of a single, simple function for submitting `SQL` queries to [treasury.io](http://treasury.io) from `R`. While you could simply copy-and-paste the function from script-to-script, this makes it quicker and easier to get up and running!
 
 ## Installation
 ```
