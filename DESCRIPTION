@@ -1,4 +1,4 @@
-Package: Rtreasury.io
+Package: Rtreasuryio
 Maintainer: csvsoundsystem <csvsoundsystem@gmail.com>
 Author: csvsoundsystem <csvsoundsystem@gmail.com>
 Version: 1.0
@@ -12,4 +12,4 @@ Depends:
     RJSONIO,
     utils
 Collate:
-    'treasury.io.R'
+    'treasuryio.R'
