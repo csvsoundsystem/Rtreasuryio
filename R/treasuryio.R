@@ -16,7 +16,7 @@ library(RJSONIO)
 library(RCurl)
 
 treasuryio <- function(sql) {
-  url = paste('https://premium.scraperwiki.com/cc7znvq/47d80ae900e04f2/sql/?q=', URLencode(sql), sep = '')
+  url = paste('http://api.treasury.io/cc7znvq/47d80ae900e04f2/sql/?q=', URLencode(sql), sep = '')
   handle <- getCurlHandle()
   body <- getURL(url, curl = handle)
   if (200 == getCurlInfo(handle)$response.code) {
